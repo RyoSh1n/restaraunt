@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ресторан Ryoshin</title>
+    <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <script src="./script.js"></script>
+
+<header class="header">
+    <div class="header-content">
+          
+        <nav>
+            <a href="#history">История</a>
+            <a href="#menu">Меню</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
+    </div>
+</header>
+
+<img src="./img/logo1.png" alt="" class="logo">  
+
+    <div class="container">
+        <section id="history" class="history">
+            <h2>Наша история</h2>
+                <p class="history1">Ресторан "Ryoshin" был основан Дамиром Бредихиным 3 октября. Идея создания этого уникального заведения родилась из глубокого интереса Дамира к азиатской культуре и его многолетней страсти к гастрономии. Вдохновленный путешествиями по Японии, Китаю и Таиланду, Дамир стремился создать пространство, где традиционные блюда Азии сочетаются с современными кулинарными техниками.
+                    Основной концепт "Ryoshin" – это гармония вкусов и минимализм, подчеркивающий красоту простоты. Меню ресторана охватывает широкий спектр азиатских кулинарных традиций – от изысканных суши и роллов до горячих блюд на основе морепродуктов, риса и овощей, приготовленных с использованием специй и соусов, привезенных непосредственно из Азии.
+                    Интерьер ресторана создан в стиле современного японского минимализма: деревянные панели, натуральные материалы и спокойная палитра цветов помогают создать атмосферу уюта и расслабления, в то время как открытая кухня позволяет гостям наблюдать за процессом приготовления блюд.</p>
+        </section>
+
+        <section id="menu">
+            <h2>Наше меню</h2>
+
+            <div class="scroll-buttons">
+                <button onclick="scrollMenu(-1)">←</button>
+                <button onclick="scrollMenu(1)">→</button>
+            </div>
+
+            <div class="menu">
+                <div class="menu-item">
+                    <img src="./img/sushi.jpg" alt="Суши-сет">
+                    <h3>Суши-сет "Традиционный"</h3>
+                    <p>Разнообразные суши с лососем, тунцом и угрем.</p>
+                    <span>12000 ₸</span>
+                </div>
+
+                <div class="menu-item">
+                    <img src="./img/ramen.jpeg" alt="Рамен">
+                    <h3>Рамен с говядиной</h3>
+                    <p>Насыщенный суп с тонкими ломтиками говядины и лапшой.</p>
+                    <span>3500 ₸</span>
+                </div>
+
+                <div class="menu-item">
+                    <img src="./img/tomyam.jpg" alt="Том Ям">
+                    <h3>Том Ям с креветками</h3>
+                    <p>Пряный суп с кокосовым молоком и свежими креветками.</p>
+                    <span>3200 ₸</span>
+                </div>
+
+                <div class="menu-item">
+                    <img src="./img/salad.jpg" alt="Салат">
+                    <h3>Салат с манго и курицей</h3>
+                    <p>Лёгкий салат с тропическими нотками манго и сочной курицей.</p>
+                    <span>2500 ₸</span>
+                </div>
+
+                <div class="menu-item">
+                    <img src="./img/moti.jpg" alt="Моти">
+                    <h3>Моти с красной фасолью</h3>
+                    <p>Традиционные японские сладости с начинкой из красной фасоли.</p>
+                    <span>1800 ₸</span>
+                </div>
+            </div>
+        </section>
+    </div>
+<div class="button-container">
+    <h4><a href="./index2.html" class="delivery">Оформить доставку на дом!</a></h4>
+</div>
+    <footer>
+        <div id="contacts" class="contacts">
+            <h2>Контакты</h2>
+            <p>Адрес: г. Алматы, ул. Достык, 108</p>
+            <p>Телефон: +7 (747) 233-35-11</p>
+            <p>Часы работы: с 10:00 до 23:00</p>
+        </div>
+    </footer>
+</body>
